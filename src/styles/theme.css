@@ -1,0 +1,27 @@
+:root {
+  --los-bg: #FAFAF9;
+  --los-surface: #F4F3F1;
+  --los-border: #E8E7E4;
+  --los-muted: #888780;
+  --los-primary: #1A1A18;
+  --los-accent: #1D9E75;
+  --los-accent-light: #EBF7F3;
+  --los-coral: #D95F50;
+  --los-coral-light: #FDF0EE;
+  --los-amber: #D4872A;
+  --los-blue: #3B7DD8;
+}
+
+.dark {
+  --los-bg: #111110;
+  --los-surface: #1A1A18;
+  --los-border: #2C2C2A;
+  --los-muted: #666560;
+  --los-primary: #F1EFE8;
+  --los-accent: #1D9E75;
+  --los-accent-light: #162920;
+  --los-coral: #D95F50;
+  --los-coral-light: #2F1A18;
+  --los-amber: #D4872A;
+  --los-blue: #3B7DD8;
+}

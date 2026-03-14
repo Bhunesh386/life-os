@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--los-bg);
+  color: var(--los-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mono for numbers */
+.font-mono {
+  font-family: 'DM Mono', monospace;
+}
+
+/* Focus styles */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--los-accent);
+  transition: box-shadow 100ms;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--los-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--los-muted);
+}
+
+/* Custom utilities */
+.border-05 {
+  border-width: 0.5px;
+}
+
+.border-b-05 {
+  border-bottom-width: 0.5px;
+}
+
+.border-l-05 {
+  border-left-width: 0.5px;
+}
+
+.border-r-05 {
+  border-right-width: 0.5px;
+}
+
+.border-t-05 {
+  border-top-width: 0.5px;
+}
